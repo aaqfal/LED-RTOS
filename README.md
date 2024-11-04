@@ -18,7 +18,7 @@ This project provides a practical example of how to:
      
 3. **Start Red Flashing Task**
    - Turn the Orange LED ON
-   - Toggle Red Led for x seconds
+   - Toggle Red LED for x seconds
    - Turn Red and Orange LED OFF
 
 ## Hardware Used
