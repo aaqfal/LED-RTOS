@@ -5,7 +5,7 @@ This project is an imolementation of a system based on STM32 that scheduling LED
 ## Description
 
 This project provides a practical example of how to:
-- 
+
 
 ## Task Overflow
 1. **Initialization**
