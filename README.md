@@ -21,9 +21,12 @@ This project provides a practical example of how to:
    - Toggle Red LED for x seconds
    - Turn Red and Orange LED OFF
 
+
 ## Hardware Used
 - STM32 Microcontroller
 - LED
 - Resistor
 
 ## Demo Video
+https://github.com/user-attachments/assets/e408f3b2-f77f-4042-869b-3023f2d8d1c4
+
