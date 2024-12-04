@@ -4,8 +4,19 @@ This project is an implementation of a system based on STM32 that scheduling LED
 
 ## Description
 
-This project provides a practical example of how to:
+This project provides a practical example to understanding about multitasking. That involves:
+1. Task timing and scheduling
+   - Define and enforce temporal connstrains of tasks
+   - Validate periodicity and execution times of tasks, ensuring tasks meet their specified timing requirements 
+2. Task Prioritazion
+   - Observing impact of assigning different prioririty to task
+   - That higher priority tasks will preempt lower priority tasks, and causing delay
+   - Priority can influences task execution and system behvior
+3. Task Preemption
+   - Task preemption affects the actual run time of lower priority tasks, causing run time to be much longer than specified
+   - Due to longer runtime, leading lower priotity tasks not meet the deadline
 
+Lower priority task missing its deadline can be fatal in hard-real time systems. So when designing, it is important to think before doing.
 
 ## Task Overflow
 1. **Initialization**
